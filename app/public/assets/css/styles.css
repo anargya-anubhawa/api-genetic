@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #CFCFCF;
+    margin: 0;
+    padding: 0;
+    background-color: #111824;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #222B3B;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-right: 10px;
+}
+
+#apiInfo {
+    margin-top: 20px;
+}
+
+ol {
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+  background-color: #25D366;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#apiLinks {
+    margin-top: 20px;
+}
+
+#apiLinkBtnVisit {
+  padding: 10px;
+  background-color: #42DB53;
+  color: #222B3B;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#apiLinkBtnVisit:disabled {
+  background-color: #C10505;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: not-allowed;
+}
+
+#apiLinkBtn {
+    padding: 10px;
+    background-color: #42DB53;
+    color: #222B3B;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
