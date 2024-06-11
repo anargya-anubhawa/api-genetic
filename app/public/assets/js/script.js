@@ -57,6 +57,14 @@ function displayApiInfo() {
             "<p><strong>Headers:</strong><br>There isn't any.</p>";
           apiLinkBtn.disabled = false;
           break;
+          
+        case "susunkata":
+          apiInfoDiv.innerHTML =
+            "<p>API to get a susun kata.</p>" +
+            "<p><strong>Headers:</strong><br>There isn't any.</p>";
+          apiLinkBtn.disabled = false;
+          break;
+         
         case "tebaklirik":
           apiInfoDiv.innerHTML =
            "<p>API to get a tebak lirik.</p>" +
@@ -181,8 +189,8 @@ function visitApi() {
         case "chatgpt":
             window.open("api/ai/chatgpt.php", "_blank");
             break;
-        case "chatgptweb":
-            window.open("api/ai/chatgptweb.php", "_blank");
+        case "blackbox":
+            window.open("api/ai/blackbox.php", "_blank");
             break;
         case "gemini":
             window.open("api/ai/gemini.php", "_blank");
@@ -193,25 +201,37 @@ function visitApi() {
         case "mistral":
             window.open("api/ai/mistral.php", "_blank");
             break;
-        case "blackbox":
-            window.open("api/ai/blackbox.php", "_blank");
-            break;
-        case "deku":
-            window.open("api/fun/deku.php", "_blank");
-            break;
-        case "bing":
-            window.open("api/ai/bing.php", "_blank");
-            break;
-
-        // Fun
-        case "simsimi":
+        case "simi":
             window.open("api/fun/simsimi.php", "_blank");
             break;
+
+  
+        // Fun
+        case "dare":
+            window.open("api/fun/dare.php", "_blank");
+            break;
+        case "truth":
+            window.open("api/fun/truth.php", "_blank");
+            break;
+        case "susunkata":
+            window.open("api/fun/susunkata.php", "_blank");
+            break;
+        case "tebakkata":
+            window.open("api/fun/tebakkata.php", "_blank");
+            break;
+        case "tebaklirik":
+            window.open("api/fun/tebaklirik.php", "_blank");
+            break;
+
+
+
+
+        // Search
         case "lirik":
-            window.open("api/fun/lirik.php", "_blank");
+            window.open("api/search/lirik.php", "_blank");
             break;
         case "chord":
-            window.open("api/fun/chord.php", "_blank");
+            window.open("api/search/chord.php", "_blank");
             break;
 
         // Islamic
@@ -243,9 +263,31 @@ function visitApi() {
             break;
             
         //Other
+        
         case "ip-lookup":
             window.open("api/other/ip-lookup.php", "_blank");
             break;
+
+        case "tempmail":
+            window.open("api/other/tempmail.php", "_blank");
+            break;
+
+        case "tempmail-inbox":
+            window.open("api/other/tempmail-inbox .php", "_blank");
+            break;
+
+        case "shortlink":
+            window.open("api/other/shortlink.php", "_blank");
+            break;
+            
+        case "youtube":
+            window.open("api/stalk/youtube.php", "_blank");
+            break;
+            
+        case "instagram":
+            window.open("api/stalk/instagram.php", "_blank");
+            break;
+            
             
         // Default
         default:
